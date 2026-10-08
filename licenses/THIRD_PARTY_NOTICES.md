@@ -18,3 +18,5 @@ The source snapshot already contains U-GFAA-specific modifications. Further publ
 | Anomaly Mix helper functions and semantic mapper | Source comments acknowledge tianyu0207/PEBAL. A standalone PEBAL license was not identified at its public repository root as of 2026-10-08; no new license is asserted for that upstream contribution. The existing attribution is retained. |
 
 These notices do not replace the component-specific licenses. Dataset and pretrained-checkpoint rights are separate; neither data nor weights are included.
+
+The browser-upload edition additionally omits fourteen duplicate hidden notebook backup files. Their corresponding normal source files and all existing license headers remain. The source manifest is updated to check only the retained files.

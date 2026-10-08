@@ -3,7 +3,6 @@
   "source_files_sha256": {
     "lib/loss.py": "44bdfcf1b81481bffce150ee2de80c4622b4ca540934b1be543faa201832b82e",
     "lib/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "lib/.ipynb_checkpoints/loss-checkpoint.py": "44bdfcf1b81481bffce150ee2de80c4622b4ca540934b1be543faa201832b82e",
     "lib/configs/config.py": "ffb8509625df7953b5d97a60f4113e2d94b2ef32924ea32c43d914f45989ca6c",
     "lib/configs/parse_arg.py": "c877bbb074f865560ef1ae8c65f15c1b70461c4f37bada9dde536e09c0e1424c",
     "lib/configs/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -11,10 +10,6 @@
     "lib/dataset/cityscapes.py": "e6f927bb87a8e1f8c970c37c5c033b73e682820d5983cf12978fc7d9188bec69",
     "lib/dataset/fishyscapes.py": "f10a3197e43c8bfb1db93e285d5d6236ac1886d148e5694afd02719bb2b0248b",
     "lib/dataset/__init__.py": "43d2c5b99ce36cd1fd3d19a467baeeeab850ab01faab762528f00ed0abafb372",
-    "lib/dataset/.ipynb_checkpoints/anomaly-checkpoint.py": "dfcb467cc7846b0b0c9646827243f2820754e7e7433fa5a29b53dcd3c4ea1c64",
-    "lib/dataset/.ipynb_checkpoints/cityscapes-checkpoint.py": "e6f927bb87a8e1f8c970c37c5c033b73e682820d5983cf12978fc7d9188bec69",
-    "lib/dataset/.ipynb_checkpoints/fishyscapes-checkpoint.py": "f10a3197e43c8bfb1db93e285d5d6236ac1886d148e5694afd02719bb2b0248b",
-    "lib/dataset/.ipynb_checkpoints/__init__-checkpoint.py": "43d2c5b99ce36cd1fd3d19a467baeeeab850ab01faab762528f00ed0abafb372",
     "lib/network/deepv3/deepv3.py": "e7fdafb5d5fd32bab9710f341291336ce7ee090fc9224a2273cc6f4b77b8b771",
     "lib/network/deepv3/deepv3_backbone.py": "0b5545578918336bf0f1f566068d0aff437481e8aa0a99f31eeb3ae524795025",
     "lib/network/deepv3/mynn.py": "2472043c8ed2d57097899a48b509ffe9e79610e971236fb4be6e8a287892aec5",
@@ -22,10 +17,6 @@
     "lib/network/deepv3/SEresnext.py": "77b0bc72d877ce1d22f8aea7cf26cd3d3d28bf808bb7715f26c860785e85115a",
     "lib/network/deepv3/wider_resnet.py": "49485da5c35a399d4d01ff4c7c8156a12204bbe502d4cf96b8d2594613280831",
     "lib/network/deepv3/__init__.py": "8ef3fa30c0c644970a8ef7e7ea1156fe4ccd3cc494a6ddedeadc3ad7e5f11cad",
-    "lib/network/deepv3/.ipynb_checkpoints/deepv3-checkpoint.py": "e7fdafb5d5fd32bab9710f341291336ce7ee090fc9224a2273cc6f4b77b8b771",
-    "lib/network/deepv3/.ipynb_checkpoints/deepv3_backbone-checkpoint.py": "0b5545578918336bf0f1f566068d0aff437481e8aa0a99f31eeb3ae524795025",
-    "lib/network/deepv3/.ipynb_checkpoints/Resnet-checkpoint.py": "04bb902ad17c6ed165276229cc9b3bd929e5588cc7ceef0d547ce820adbbad30",
-    "lib/network/deepv3/.ipynb_checkpoints/wider_resnet-checkpoint.py": "49485da5c35a399d4d01ff4c7c8156a12204bbe502d4cf96b8d2594613280831",
     "lib/network/mask2former/config.py": "de56cbb706f764f26016d990a51a2abf9074c00b8a60d101f9c5fa79088e91ff",
     "lib/network/mask2former/maskformer_model.py": "c26d43ae9e08695c0a89bf612682294473bc8315e039aba397dcf46f1d7423b9",
     "lib/network/mask2former/test_time_augmentation.py": "292cc560a56d8d202f52c578943d346910095bd4c18db25e8a14ea318f3cea9a",
@@ -76,11 +67,6 @@
     "lib/utils/metric.py": "ea4feaee562e208f1bbdf01c4c47b4140a17e9e98e9812c2cfaca86b454956b3",
     "lib/utils/utils.py": "314819190857e0f850d767f3b47b4f942962f8c137a34c468e2740d7000c4d7d",
     "lib/utils/__init__.py": "8eecb560f18f6fb6cb75d9818837fab2b9f3ceb64e566317e09d906cb1be1464",
-    "lib/utils/.ipynb_checkpoints/freq_aug-checkpoint.py": "87c498697fb6db45ae083cb09d2dab6052d5c31f0d89ca92908a122e0014062f",
-    "lib/utils/.ipynb_checkpoints/freq_aug0-checkpoint.py": "53a9c9c0589fe2a97b2565b6027242c1e4573f69368372c189494579c9e12ceb",
-    "lib/utils/.ipynb_checkpoints/img_utils-checkpoint.py": "176954bfcec3b374d2815bc438f2fbd06a0f010879c4fb5ff40fb09794d4d0e8",
-    "lib/utils/.ipynb_checkpoints/metric-checkpoint.py": "ea4feaee562e208f1bbdf01c4c47b4140a17e9e98e9812c2cfaca86b454956b3",
-    "lib/utils/.ipynb_checkpoints/utils-checkpoint.py": "314819190857e0f850d767f3b47b4f942962f8c137a34c468e2740d7000c4d7d",
     "exps/DeepLab.yaml": "008972aceb714f0b8228d016cac6f73413794eeea5b225976113cec232d64a7e",
     "exps/DeepLabold.yaml": "f22f217c7d321ffcf0ec110bbb51df0b460f0ee4658311e96d8359acf23189f9",
     "exps/Deeplab_backbone.yaml": "3ca6f79b5819f8acefcfb90c16e5ff12ef83ff12f27be97eeb2e7e6a577009c8",
@@ -107,6 +93,23 @@
   "public_release": {
     "date": "2026-10-08",
     "original_manifest_sha256": "032d2e5220eb7078c45531466bcdcfea548d88e98a7c7a88c4029e22d1bc90bc",
-    "note": "Hashes describe the public source snapshot. Only environment.yml machine-prefix removal differs from the supplied snapshot; algorithms are unchanged."
+    "note": "Hashes describe the public source snapshot. The environment machine prefix is removed. Fourteen duplicate notebook checkpoint files are omitted from the web-upload edition; every retained algorithm source file is unchanged from the initial public release.",
+    "edition": "web-upload-visible-files",
+    "omitted_duplicate_notebook_files": [
+      "lib/.ipynb_checkpoints/loss-checkpoint.py",
+      "lib/dataset/.ipynb_checkpoints/anomaly-checkpoint.py",
+      "lib/dataset/.ipynb_checkpoints/cityscapes-checkpoint.py",
+      "lib/dataset/.ipynb_checkpoints/fishyscapes-checkpoint.py",
+      "lib/dataset/.ipynb_checkpoints/__init__-checkpoint.py",
+      "lib/network/deepv3/.ipynb_checkpoints/deepv3-checkpoint.py",
+      "lib/network/deepv3/.ipynb_checkpoints/deepv3_backbone-checkpoint.py",
+      "lib/network/deepv3/.ipynb_checkpoints/Resnet-checkpoint.py",
+      "lib/network/deepv3/.ipynb_checkpoints/wider_resnet-checkpoint.py",
+      "lib/utils/.ipynb_checkpoints/freq_aug-checkpoint.py",
+      "lib/utils/.ipynb_checkpoints/freq_aug0-checkpoint.py",
+      "lib/utils/.ipynb_checkpoints/img_utils-checkpoint.py",
+      "lib/utils/.ipynb_checkpoints/metric-checkpoint.py",
+      "lib/utils/.ipynb_checkpoints/utils-checkpoint.py"
+    ]
   }
 }

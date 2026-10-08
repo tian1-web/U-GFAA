@@ -2,13 +2,15 @@
   "release_date": "2026-10-08",
   "upstream_url": "https://github.com/gaozhitong/MultiShiftSeg",
   "upstream_commit": "2f7404545c5984de2c2f85b652f23eb87d00401f",
-  "scope": "Owned source files, licenses, and data-list metadata prepared for public CNN release. Root README/requirements/.gitignore maintained separately.",
+  "scope": "Public CNN source release, web-upload edition. Hidden duplicate notebook backups and optional Git configuration files are omitted; retained algorithm files are unchanged. Root README and requirements are included separately.",
   "checks": {
     "python_ast": "passed",
     "source_manifest": "passed",
     "private_path_json_scan": "passed",
     "training_or_gpu_rerun": false,
-    "algorithm_changes": false
+    "algorithm_changes": false,
+    "source_manifest_retained_files": 88,
+    "hidden_runtime_dependencies": "none"
   },
   "files": {
     "review_experiments/source_snapshot/lib/loss.py": {
@@ -21,12 +23,6 @@
       "origin": "review_experiments/source_snapshot/lib/__init__.py",
       "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "changes": []
-    },
-    "review_experiments/source_snapshot/lib/.ipynb_checkpoints/loss-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/.ipynb_checkpoints/loss-checkpoint.py",
-      "source_sha256": "44bdfcf1b81481bffce150ee2de80c4622b4ca540934b1be543faa201832b82e",
-      "release_sha256": "44bdfcf1b81481bffce150ee2de80c4622b4ca540934b1be543faa201832b82e",
       "changes": []
     },
     "review_experiments/source_snapshot/lib/configs/config.py": {
@@ -71,30 +67,6 @@
       "release_sha256": "43d2c5b99ce36cd1fd3d19a467baeeeab850ab01faab762528f00ed0abafb372",
       "changes": []
     },
-    "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/anomaly-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/anomaly-checkpoint.py",
-      "source_sha256": "dfcb467cc7846b0b0c9646827243f2820754e7e7433fa5a29b53dcd3c4ea1c64",
-      "release_sha256": "dfcb467cc7846b0b0c9646827243f2820754e7e7433fa5a29b53dcd3c4ea1c64",
-      "changes": []
-    },
-    "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/cityscapes-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/cityscapes-checkpoint.py",
-      "source_sha256": "e6f927bb87a8e1f8c970c37c5c033b73e682820d5983cf12978fc7d9188bec69",
-      "release_sha256": "e6f927bb87a8e1f8c970c37c5c033b73e682820d5983cf12978fc7d9188bec69",
-      "changes": []
-    },
-    "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/fishyscapes-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/fishyscapes-checkpoint.py",
-      "source_sha256": "f10a3197e43c8bfb1db93e285d5d6236ac1886d148e5694afd02719bb2b0248b",
-      "release_sha256": "f10a3197e43c8bfb1db93e285d5d6236ac1886d148e5694afd02719bb2b0248b",
-      "changes": []
-    },
-    "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/__init__-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/__init__-checkpoint.py",
-      "source_sha256": "43d2c5b99ce36cd1fd3d19a467baeeeab850ab01faab762528f00ed0abafb372",
-      "release_sha256": "43d2c5b99ce36cd1fd3d19a467baeeeab850ab01faab762528f00ed0abafb372",
-      "changes": []
-    },
     "review_experiments/source_snapshot/lib/network/deepv3/deepv3.py": {
       "origin": "review_experiments/source_snapshot/lib/network/deepv3/deepv3.py",
       "source_sha256": "e7fdafb5d5fd32bab9710f341291336ce7ee090fc9224a2273cc6f4b77b8b771",
@@ -135,30 +107,6 @@
       "origin": "review_experiments/source_snapshot/lib/network/deepv3/__init__.py",
       "source_sha256": "8ef3fa30c0c644970a8ef7e7ea1156fe4ccd3cc494a6ddedeadc3ad7e5f11cad",
       "release_sha256": "8ef3fa30c0c644970a8ef7e7ea1156fe4ccd3cc494a6ddedeadc3ad7e5f11cad",
-      "changes": []
-    },
-    "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/deepv3-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/deepv3-checkpoint.py",
-      "source_sha256": "e7fdafb5d5fd32bab9710f341291336ce7ee090fc9224a2273cc6f4b77b8b771",
-      "release_sha256": "e7fdafb5d5fd32bab9710f341291336ce7ee090fc9224a2273cc6f4b77b8b771",
-      "changes": []
-    },
-    "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/deepv3_backbone-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/deepv3_backbone-checkpoint.py",
-      "source_sha256": "0b5545578918336bf0f1f566068d0aff437481e8aa0a99f31eeb3ae524795025",
-      "release_sha256": "0b5545578918336bf0f1f566068d0aff437481e8aa0a99f31eeb3ae524795025",
-      "changes": []
-    },
-    "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/Resnet-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/Resnet-checkpoint.py",
-      "source_sha256": "04bb902ad17c6ed165276229cc9b3bd929e5588cc7ceef0d547ce820adbbad30",
-      "release_sha256": "04bb902ad17c6ed165276229cc9b3bd929e5588cc7ceef0d547ce820adbbad30",
-      "changes": []
-    },
-    "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/wider_resnet-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/wider_resnet-checkpoint.py",
-      "source_sha256": "49485da5c35a399d4d01ff4c7c8156a12204bbe502d4cf96b8d2594613280831",
-      "release_sha256": "49485da5c35a399d4d01ff4c7c8156a12204bbe502d4cf96b8d2594613280831",
       "changes": []
     },
     "review_experiments/source_snapshot/lib/network/mask2former/config.py": {
@@ -461,36 +409,6 @@
       "release_sha256": "8eecb560f18f6fb6cb75d9818837fab2b9f3ceb64e566317e09d906cb1be1464",
       "changes": []
     },
-    "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/freq_aug-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/freq_aug-checkpoint.py",
-      "source_sha256": "87c498697fb6db45ae083cb09d2dab6052d5c31f0d89ca92908a122e0014062f",
-      "release_sha256": "87c498697fb6db45ae083cb09d2dab6052d5c31f0d89ca92908a122e0014062f",
-      "changes": []
-    },
-    "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/freq_aug0-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/freq_aug0-checkpoint.py",
-      "source_sha256": "53a9c9c0589fe2a97b2565b6027242c1e4573f69368372c189494579c9e12ceb",
-      "release_sha256": "53a9c9c0589fe2a97b2565b6027242c1e4573f69368372c189494579c9e12ceb",
-      "changes": []
-    },
-    "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/img_utils-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/img_utils-checkpoint.py",
-      "source_sha256": "176954bfcec3b374d2815bc438f2fbd06a0f010879c4fb5ff40fb09794d4d0e8",
-      "release_sha256": "176954bfcec3b374d2815bc438f2fbd06a0f010879c4fb5ff40fb09794d4d0e8",
-      "changes": []
-    },
-    "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/metric-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/metric-checkpoint.py",
-      "source_sha256": "ea4feaee562e208f1bbdf01c4c47b4140a17e9e98e9812c2cfaca86b454956b3",
-      "release_sha256": "ea4feaee562e208f1bbdf01c4c47b4140a17e9e98e9812c2cfaca86b454956b3",
-      "changes": []
-    },
-    "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/utils-checkpoint.py": {
-      "origin": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/utils-checkpoint.py",
-      "source_sha256": "314819190857e0f850d767f3b47b4f942962f8c137a34c468e2740d7000c4d7d",
-      "release_sha256": "314819190857e0f850d767f3b47b4f942962f8c137a34c468e2740d7000c4d7d",
-      "changes": []
-    },
     "review_experiments/source_snapshot/exps/DeepLab.yaml": {
       "origin": "review_experiments/source_snapshot/exps/DeepLab.yaml",
       "source_sha256": "008972aceb714f0b8228d016cac6f73413794eeea5b225976113cec232d64a7e",
@@ -628,10 +546,12 @@
     "review_experiments/source_snapshot/manifest.json": {
       "origin": "review_experiments/source_snapshot/manifest.json",
       "source_sha256": "032d2e5220eb7078c45531466bcdcfea548d88e98a7c7a88c4029e22d1bc90bc",
-      "release_sha256": "6c3d5be4f7fa9ce1a15d9aff536dc4a2a102afc748f16e5f011d626fc3c3048a",
+      "release_sha256": "c5e746b40c7448123162cf13bd7c8ed76e3846fbbf0d0cc65776151cdebfdd54",
       "changes": [
-        "Recomputed file hashes for public snapshot and normalized manifest key separators to POSIX."
-      ]
+        "Recomputed file hashes for public snapshot and normalized manifest key separators to POSIX.",
+        "Web-upload edition: omit duplicate hidden backups and update corresponding source inventory/documentation; algorithm unchanged."
+      ],
+      "previous_public_release_sha256": "6c3d5be4f7fa9ce1a15d9aff536dc4a2a102afc748f16e5f011d626fc3c3048a"
     },
     "review_experiments/runtime.py": {
       "origin": "review_experiments/response_B_final_20261003/evidence/cloud_archive/runtime.py",
@@ -840,14 +760,87 @@
     "licenses/THIRD_PARTY_NOTICES.md": {
       "origin": "generated for public release",
       "source_sha256": null,
-      "release_sha256": "2757add1a0cb70cbefa15243f7e4b1bd8f67bd86666b06ed95ea8fe99b106d5c",
-      "changes": []
+      "release_sha256": "a9d74697cba3490b91c020fecae8d01cce92c18de3a5cb1693ff0821ae3d5c14",
+      "changes": [
+        "Web-upload edition: omit duplicate hidden backups and update corresponding source inventory/documentation; algorithm unchanged."
+      ],
+      "previous_public_release_sha256": "2757add1a0cb70cbefa15243f7e4b1bd8f67bd86666b06ed95ea8fe99b106d5c"
     },
     "review_experiments/RELEASE_LAYOUT.md": {
       "origin": "generated for public release",
       "source_sha256": null,
-      "release_sha256": "6891b1b61c856daf8b3290be9f2819bd628cc63ce577aea93da9e274376f9d74",
-      "changes": []
+      "release_sha256": "8d2483bd15b40885d7885ff4c0ccebd3f59f985dd7d961318dd1e483adae1346",
+      "changes": [
+        "Web-upload edition: omit duplicate hidden backups and update corresponding source inventory/documentation; algorithm unchanged."
+      ],
+      "previous_public_release_sha256": "6891b1b61c856daf8b3290be9f2819bd628cc63ce577aea93da9e274376f9d74"
     }
-  }
+  },
+  "edition": "web-upload-visible-files",
+  "omitted_files": [
+    {
+      "path": ".gitattributes",
+      "reason": "Optional Git configuration; not a runtime dependency."
+    },
+    {
+      "path": ".gitignore",
+      "reason": "Optional Git configuration; not a runtime dependency."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/.ipynb_checkpoints/loss-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/__init__-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/anomaly-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/cityscapes-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/fishyscapes-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/Resnet-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/deepv3-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/deepv3_backbone-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/wider_resnet-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/freq_aug-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/freq_aug0-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/img_utils-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/metric-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    },
+    {
+      "path": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/utils-checkpoint.py",
+      "reason": "Duplicate notebook backup; corresponding normal source retained."
+    }
+  ]
 }

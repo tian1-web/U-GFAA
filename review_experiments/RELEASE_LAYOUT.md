@@ -27,3 +27,7 @@ Baseline-only label adaptation retains the original audit of 16 generated masks 
 Public-release paths and manifest hashes differ from historical experiment archives. New runs record the public-release hashes. Historical checkpoints are not included and should not be mixed with new configurations to bypass provenance checks. Exact historical metric reproduction has not been rerun as part of packaging. The release provenance file identifies source hashes and each packaging change.
 
 No cloud connection/migration/backup utilities, datasets, checkpoints, logs, reviewer correspondence, or Python environments are included.
+
+## Browser upload edition
+
+This edition contains only visible files. Fourteen hidden notebook backup files, each byte-identical to its corresponding normal Python file, are omitted. The source manifest checks the 88 retained files and does not require those backups. Hidden Git configuration files are also omitted; they are not training or evaluation dependencies. No model, loss, training, or evaluation algorithm is changed.
