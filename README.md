@@ -60,36 +60,6 @@ export U_GFAA_WEIGHTS=/path/to/cityscapes_best.pth
 
 The recorded input selections require 2,917 clean/generated training pairs and 19,058 COCO mask candidates. The release includes relative file lists, not the images. A different dataset version or missing generated pairs will fail the input checks rather than silently change the experiment. Evaluation expects RoadAnomaly (60 images), RoadAnomaly21 validation (10), RoadObstacle21 validation (30), Fishyscapes Static (30), and Fishyscapes LostAndFound (100). Fishyscapes labels must be encoded as 0=inlier, 1=anomaly, 255=ignore.
 
-## Train
-
-Run from the repository root. The wrappers locate their own source/configuration directory.
-
-```bash
-# Complete supplied implementation
-python review_experiments/train_multiseed49.py --variant full_source --seed 0 --epochs 49 --run-id full_source_e49_seed0
-
-# Adapted MultiShiftSeg baseline
-python review_experiments/train_multiseed49_baseline.py --variant multishiftseg --seed 0 --epochs 49 --run-id multishiftseg_e49_seed0
-
-# Example component ablation
-python review_experiments/train_variants.py --variant incremental_base --seed 0 --epochs 49 --run-id incremental_base_e49_seed0
-```
-
-For the repeated comparison, run the two methods with seeds `0`, `1`, and `2`, using a distinct run ID each time. Keep the input lists, code, configuration, and initial checkpoint fixed. The complete-source and baseline commands preserve the same generated training pairs across seeds.
-
-Available ablation names include `incremental_base`, `incremental_usafa`, `incremental_fem`, `curriculum_fixed`, `random_mask`, and `no_phase_lock`. The full definitions and intervention boundaries are in `review_experiments/ablation_variants.py`; availability of a variant does not mean it has been experimentally evaluated in this release.
-
-Use the same command with `--resume` to continue an existing run. Run configuration checks deliberately reject changes to an existing experiment.
-
-## Evaluate
-
-```bash
-python review_experiments/evaluate_run.py --run-id full_source_e49_seed0
-```
-
-This evaluates the completed fixed final checkpoint and writes AuPRC, AUROC, FPR95, image counts, and provenance under `review_experiments/runs/<run-id>/final_evaluation/`. Use `--save-predictions` to additionally save float32 score maps and labels. Checkpoint/source hashes must match the training run. Initialization weights are still required because compact checkpoints store mutable tensors and reconstruct frozen tensors from the original initialization.
-
-RoadAnomaly21 and RoadObstacle21 evaluation uses their labelled validation subsets. These are not hidden-test-server results.
 
 ## Attribution and licensing
 
