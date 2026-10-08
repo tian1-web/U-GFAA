@@ -1,0 +1,10 @@
+# Supplementary CNN experiment dependencies. Install PyTorch/torchvision separately.
+numpy==2.2.6
+Pillow==12.0.0
+scikit-learn==1.7.2
+scipy==1.15.3
+opencv-python-headless==4.13.0.92
+h5py==3.16.0
+wget==3.2
+PyYAML==6.0.3
+easydict==1.13

@@ -1,0 +1,35 @@
+data:
+  train_ds: 'DiverseCityscapes'
+  anomaly_mix: True
+  mixup: True
+  num_workers: 4
+  crop_size: [768, 768]
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+
+model:
+  backbone: 'ResNet50'
+  trainable_params_name: ["ood_head", "freq_enhancement"]
+  trainable_params_name_update: ["aspp", "bot_fine", "bot_aspp", "ood_head", "freq_enhancement"]
+
+train:
+  n_epochs: 50
+  warmup_epoch: 10
+  train_batch: 2
+  valid_batch: 2
+  test_batch: 1
+  optimizer: Adam
+  lr: 5.0e-5
+  lr_update: 1.0e-6
+  momentum: 0.9
+  weight_decay: 1.0e-4
+
+loss:
+  name: 'MyCustomLoss'
+  params:
+    ce_weights: [50, 10]
+    conduct_pixel_selection: True
+    selection_ratio: 0.8
+    inoutaug_contras_margins_tri: [10, 5, 5]
+    lambda_consistency: 0.1
+    lambda_sparsity: 0.01

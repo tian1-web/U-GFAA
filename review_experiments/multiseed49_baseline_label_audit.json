@@ -1,0 +1,512 @@
+{
+  "policy": "audited_generated_anomaly_24_26_to_254_v1",
+  "mapping": {
+    "24": 254,
+    "26": 254
+  },
+  "files_scanned": 2917,
+  "raw_label_values_before_mapping": {
+    "0": 1920871694,
+    "1": 321963385,
+    "2": 1229514029,
+    "3": 35192051,
+    "4": 45629238,
+    "5": 66273865,
+    "6": 11412943,
+    "7": 29922147,
+    "8": 862658047,
+    "9": 62545355,
+    "10": 217822228,
+    "11": 65018529,
+    "12": 7329997,
+    "13": 376712099,
+    "14": 14513599,
+    "15": 12858178,
+    "16": 12813970,
+    "17": 5196413,
+    "18": 21954663,
+    "24": 455180,
+    "26": 155264,
+    "254": 102752012,
+    "255": 693827498
+  },
+  "raw_value_audit_sha256": "3ed899aa38ac50a4771f3389881f5acc8b26a11164411f18bf4f5abb0bb17f08",
+  "region_audit_sha256": "fff15355ef2544ae35260f299c8f224843cbc799fb74d334d5efdded94d37751",
+  "source_evidence": "shared-nvme/MultiShiftSeg/CGAug/generate_multishift_image.py assigns generated anomaly regions to label_trainId 254; loss semantics are ID0..18, anomaly254, void255.",
+  "source_generator_sha256": "a4e114384a773378019ffa479663470aa4edca3d49bc7a159e8ea57e79c1fd81",
+  "affected_files": [
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/aachen/aachen_000068_000019_rainy_day_Cape_Town_rock_0.82_gtFine_labelTrainIds.png",
+      "sha256": "3475d84859b11fe254823cb1ac9978280c8cbccd0d51d7ff07e47ca3b20d9a42",
+      "raw_intermediate_ids": [
+        24
+      ],
+      "raw_pixel_counts": {
+        "24": 9460
+      },
+      "region_comparison": {
+        "generated": "aachen_000068_000019_rainy_day_Cape_Town_rock_0.82_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 9460
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 8,
+        "valid_pixel_mismatch": 8,
+        "bad_box_xyxy": [
+          1066,
+          494,
+          1251,
+          561
+        ],
+        "available_companion_files": [
+          "aachen_000068_000019_rainy_day_Cape_Town_rock_0.82_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/bremen/bremen_000134_000019_foggy_day_Austin_table_0.77_gtFine_labelTrainIds.png",
+      "sha256": "482ab5bf4628e24e904cd049dc5d9930ea5bdbfee05f0f97af5af5851abed1be",
+      "raw_intermediate_ids": [
+        24
+      ],
+      "raw_pixel_counts": {
+        "24": 89368
+      },
+      "region_comparison": {
+        "generated": "bremen_000134_000019_foggy_day_Austin_table_0.77_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 79625,
+          "1": 1658,
+          "2": 694,
+          "4": 22,
+          "5": 338,
+          "8": 1818,
+          "13": 844,
+          "18": 319,
+          "255": 4050
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 6,
+        "valid_pixel_mismatch": 6,
+        "bad_box_xyxy": [
+          14,
+          466,
+          425,
+          955
+        ],
+        "available_companion_files": [
+          "bremen_000134_000019_foggy_day_Austin_table_0.77_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/bremen/bremen_000151_000019_rock_0.86_gtFine_labelTrainIds.png",
+      "sha256": "9400f0748a45446845c63c9fa39e67fa221823487374fa104296261eb246a43b",
+      "raw_intermediate_ids": [
+        26
+      ],
+      "raw_pixel_counts": {
+        "26": 26260
+      },
+      "region_comparison": {
+        "generated": "bremen_000151_000019_rock_0.86_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 26260
+        },
+        "outside_bad_exactly_equals_original": true,
+        "outside_bad_mismatch_pixels": 0,
+        "valid_pixel_mismatch": 0,
+        "bad_box_xyxy": [
+          1066,
+          568,
+          1277,
+          717
+        ],
+        "available_companion_files": [
+          "bremen_000151_000019_rock_0.86_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/dusseldorf/dusseldorf_000084_000019_rock_0.76_gtFine_labelTrainIds.png",
+      "sha256": "98c5df54237657392d318a5ad864e1ef2a1be0b116102af035c7aa00d7356d7b",
+      "raw_intermediate_ids": [
+        26
+      ],
+      "raw_pixel_counts": {
+        "26": 34580
+      },
+      "region_comparison": {
+        "generated": "dusseldorf_000084_000019_rock_0.76_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 27833,
+          "13": 6747
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 1,
+        "valid_pixel_mismatch": 1,
+        "bad_box_xyxy": [
+          1046,
+          546,
+          1263,
+          737
+        ],
+        "available_companion_files": [
+          "dusseldorf_000084_000019_rock_0.76_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/dusseldorf/dusseldorf_000128_000019_clear_day_Jerusalem_windowpane_0.86_gtFine_labelTrainIds.png",
+      "sha256": "f8b6d2892348f8f86acd6faa8711a7ad69a4b9eda820e23105343c2b8b332a12",
+      "raw_intermediate_ids": [
+        26
+      ],
+      "raw_pixel_counts": {
+        "26": 13408
+      },
+      "region_comparison": {
+        "generated": "dusseldorf_000128_000019_clear_day_Jerusalem_windowpane_0.86_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 13408
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 2,
+        "valid_pixel_mismatch": 2,
+        "bad_box_xyxy": [
+          932,
+          638,
+          1011,
+          823
+        ],
+        "available_companion_files": [
+          "dusseldorf_000128_000019_clear_day_Jerusalem_windowpane_0.86_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/dusseldorf/dusseldorf_000173_000019_rainy_day_Cape_Town_rock_0.81_gtFine_labelTrainIds.png",
+      "sha256": "c9c82f1ae47580d036961534d9d630736ebd3423942390824d9f41d4610bb2fe",
+      "raw_intermediate_ids": [
+        24
+      ],
+      "raw_pixel_counts": {
+        "24": 10160
+      },
+      "region_comparison": {
+        "generated": "dusseldorf_000173_000019_rainy_day_Cape_Town_rock_0.81_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 10039,
+          "13": 121
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 2,
+        "valid_pixel_mismatch": 2,
+        "bad_box_xyxy": [
+          530,
+          504,
+          719,
+          577
+        ],
+        "available_companion_files": [
+          "dusseldorf_000173_000019_rainy_day_Cape_Town_rock_0.81_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/erfurt/erfurt_000017_000019_table_0.76_gtFine_labelTrainIds.png",
+      "sha256": "8b3bbee4e2b8cf2e5003703ad8944f62fa79b64909e4dafacdb6e9e994af68eb",
+      "raw_intermediate_ids": [
+        24
+      ],
+      "raw_pixel_counts": {
+        "24": 89740
+      },
+      "region_comparison": {
+        "generated": "erfurt_000017_000019_table_0.76_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 82219,
+          "13": 3374,
+          "255": 4147
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 3,
+        "valid_pixel_mismatch": 3,
+        "bad_box_xyxy": [
+          748,
+          446,
+          1159,
+          1021
+        ],
+        "available_companion_files": [
+          "erfurt_000017_000019_table_0.76_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/erfurt/erfurt_000105_000019_pot_0.74_gtFine_labelTrainIds.png",
+      "sha256": "f1c64a5593175c1300a486c28694445ca952cc11ee6d639a9de3faa77693bb14",
+      "raw_intermediate_ids": [
+        24
+      ],
+      "raw_pixel_counts": {
+        "24": 15048
+      },
+      "region_comparison": {
+        "generated": "erfurt_000105_000019_pot_0.74_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 15048
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 2,
+        "valid_pixel_mismatch": 2,
+        "bad_box_xyxy": [
+          344,
+          694,
+          565,
+          797
+        ],
+        "available_companion_files": [
+          "erfurt_000105_000019_pot_0.74_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/hamburg/hamburg_000000_029144_mirror_0.95_gtFine_labelTrainIds.png",
+      "sha256": "594f33f78ca15f23dd6de8d707270b26518261e9037ed19906efcd39868001cc",
+      "raw_intermediate_ids": [
+        24
+      ],
+      "raw_pixel_counts": {
+        "24": 27804
+      },
+      "region_comparison": {
+        "generated": "hamburg_000000_029144_mirror_0.95_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 20013,
+          "1": 96,
+          "255": 7695
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 2,
+        "valid_pixel_mismatch": 2,
+        "bad_box_xyxy": [
+          1258,
+          544,
+          1413,
+          739
+        ],
+        "available_companion_files": [
+          "hamburg_000000_029144_mirror_0.95_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/hanover/hanover_000000_038773_rock_0.75_gtFine_labelTrainIds.png",
+      "sha256": "f3ac51c841e9b689e8246cdb13b3741c8641c4da88603f0067ad4dc61e24d4b1",
+      "raw_intermediate_ids": [
+        26
+      ],
+      "raw_pixel_counts": {
+        "26": 30248
+      },
+      "region_comparison": {
+        "generated": "hanover_000000_038773_rock_0.75_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 30112,
+          "1": 7,
+          "11": 129
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 1,
+        "valid_pixel_mismatch": 1,
+        "bad_box_xyxy": [
+          1670,
+          498,
+          1863,
+          685
+        ],
+        "available_companion_files": [
+          "hanover_000000_038773_rock_0.75_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/jena/jena_000088_000019_foggy_day_Milan_windowpane_0.92_gtFine_labelTrainIds.png",
+      "sha256": "0a5ac54ef56e25c066ae5b88341901ebaf8c0b2298b65696046f9691a92eac54",
+      "raw_intermediate_ids": [
+        24
+      ],
+      "raw_pixel_counts": {
+        "24": 60940
+      },
+      "region_comparison": {
+        "generated": "jena_000088_000019_foggy_day_Milan_windowpane_0.92_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "2": 603,
+          "11": 3527,
+          "18": 31,
+          "255": 56779
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 1,
+        "valid_pixel_mismatch": 1,
+        "bad_box_xyxy": [
+          440,
+          416,
+          619,
+          913
+        ],
+        "available_companion_files": [
+          "jena_000088_000019_foggy_day_Milan_windowpane_0.92_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/jena/jena_000107_000019_foggy_day_Austin_table_0.86_gtFine_labelTrainIds.png",
+      "sha256": "871f21b66391aba073b31388464a2c52a5daba9f894e5cb249d0d70f11d56319",
+      "raw_intermediate_ids": [
+        24
+      ],
+      "raw_pixel_counts": {
+        "24": 102788
+      },
+      "region_comparison": {
+        "generated": "jena_000107_000019_foggy_day_Austin_table_0.86_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 88162,
+          "1": 13046,
+          "2": 1020,
+          "255": 560
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 1,
+        "valid_pixel_mismatch": 1,
+        "bad_box_xyxy": [
+          1054,
+          480,
+          1469,
+          979
+        ],
+        "available_companion_files": [
+          "jena_000107_000019_foggy_day_Austin_table_0.86_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/krefeld/krefeld_000000_006686_rainy_night_Brisbane_rock_0.76_gtFine_labelTrainIds.png",
+      "sha256": "8fffeba20336b6ba36ce7ed0f300b3c2b6eaba6fbd7b01311b6223509cb98c30",
+      "raw_intermediate_ids": [
+        24
+      ],
+      "raw_pixel_counts": {
+        "24": 22188
+      },
+      "region_comparison": {
+        "generated": "krefeld_000000_006686_rainy_night_Brisbane_rock_0.76_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 22188
+        },
+        "outside_bad_exactly_equals_original": true,
+        "outside_bad_mismatch_pixels": 0,
+        "valid_pixel_mismatch": 0,
+        "bad_box_xyxy": [
+          780,
+          554,
+          927,
+          739
+        ],
+        "available_companion_files": [
+          "krefeld_000000_006686_rainy_night_Brisbane_rock_0.76_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/monchengladbach/monchengladbach_000001_000537_mirror_0.92_gtFine_labelTrainIds.png",
+      "sha256": "7945412bec1b163cfd87552850dd3b73cfcd440a8df841f53964c0fcbe9f8677",
+      "raw_intermediate_ids": [
+        24
+      ],
+      "raw_pixel_counts": {
+        "24": 27684
+      },
+      "region_comparison": {
+        "generated": "monchengladbach_000001_000537_mirror_0.92_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 25567,
+          "1": 2117
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 1,
+        "valid_pixel_mismatch": 1,
+        "bad_box_xyxy": [
+          1354,
+          520,
+          1515,
+          715
+        ],
+        "available_companion_files": [
+          "monchengladbach_000001_000537_mirror_0.92_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/tubingen/tubingen_000008_000019_clear_day_Jerusalem_windowpane_0.84_gtFine_labelTrainIds.png",
+      "sha256": "257a575dfba7d16b37d6719843cde1e658a1536eff335833e02d50d9f0aa1099",
+      "raw_intermediate_ids": [
+        26
+      ],
+      "raw_pixel_counts": {
+        "26": 18036
+      },
+      "region_comparison": {
+        "generated": "tubingen_000008_000019_clear_day_Jerusalem_windowpane_0.84_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 18036
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 3,
+        "valid_pixel_mismatch": 3,
+        "bad_box_xyxy": [
+          1308,
+          602,
+          1397,
+          815
+        ],
+        "available_companion_files": [
+          "tubingen_000008_000019_clear_day_Jerusalem_windowpane_0.84_gtFine_labelTrainIds.png"
+        ]
+      }
+    },
+    {
+      "relative_path": "DTWP_ADE_final/gtFine/train/tubingen/tubingen_000127_000019_clear_night_Dubai_rock_0.75_gtFine_labelTrainIds.png",
+      "sha256": "a82fd3d371525372df511388a33a2fc0627a4a9e28b6600f96288c1b66aedf9b",
+      "raw_intermediate_ids": [
+        26
+      ],
+      "raw_pixel_counts": {
+        "26": 32732
+      },
+      "region_comparison": {
+        "generated": "tubingen_000127_000019_clear_night_Dubai_rock_0.75_gtFine_labelTrainIds.png",
+        "original_under_bad": {
+          "0": 25057,
+          "255": 7675
+        },
+        "outside_bad_exactly_equals_original": false,
+        "outside_bad_mismatch_pixels": 9,
+        "valid_pixel_mismatch": 9,
+        "bad_box_xyxy": [
+          1772,
+          516,
+          1973,
+          709
+        ],
+        "available_companion_files": [
+          "tubingen_000127_000019_clear_night_Dubai_rock_0.75_gtFine_labelTrainIds.png"
+        ]
+      }
+    }
+  ],
+  "source_files_modified": false
+}

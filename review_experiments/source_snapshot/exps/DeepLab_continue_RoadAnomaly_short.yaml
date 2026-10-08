@@ -1,0 +1,38 @@
+data:
+  train_ds: 'DiverseCityscapes'
+  val_ds: 'RoadAnomaly'
+  anomaly_mix: True
+  mixup: True
+  num_workers: 4
+
+model:
+  backbone: 'WideResNet38'
+  trainable_params_name: ["ood_head", "freq_enhancement"]
+  trainable_params_name_update: ["ood_head", "freq_enhancement"]
+
+train:
+  # 从 epoch 23 的 best checkpoint 出发，只微调到 31 轮
+  n_epochs: 31
+  warmup_epoch: 999
+
+  train_batch: 2
+  valid_batch: 2
+  test_batch: 1
+
+  optimizer: Adam
+  # 极小学习率，避免破坏 epoch 23 的最佳边界
+  lr: 2.0e-7
+  lr_update: 2.0e-7
+  momentum: 0.9
+  weight_decay: 1.0e-4
+
+loss:
+  name: 'MyCustomLoss'
+  params: {
+            'ce_weights': [50, 10],
+            'conduct_pixel_selection': True,
+            'selection_ratio': 0.8,
+            'inoutaug_contras_margins_tri': [10, 5, 5],
+            'lambda_consistency': 0.1,
+            'lambda_sparsity': 0.01
+  }

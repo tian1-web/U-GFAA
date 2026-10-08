@@ -1,0 +1,853 @@
+{
+  "release_date": "2026-10-08",
+  "upstream_url": "https://github.com/gaozhitong/MultiShiftSeg",
+  "upstream_commit": "2f7404545c5984de2c2f85b652f23eb87d00401f",
+  "scope": "Owned source files, licenses, and data-list metadata prepared for public CNN release. Root README/requirements/.gitignore maintained separately.",
+  "checks": {
+    "python_ast": "passed",
+    "source_manifest": "passed",
+    "private_path_json_scan": "passed",
+    "training_or_gpu_rerun": false,
+    "algorithm_changes": false
+  },
+  "files": {
+    "review_experiments/source_snapshot/lib/loss.py": {
+      "origin": "review_experiments/source_snapshot/lib/loss.py",
+      "source_sha256": "44bdfcf1b81481bffce150ee2de80c4622b4ca540934b1be543faa201832b82e",
+      "release_sha256": "44bdfcf1b81481bffce150ee2de80c4622b4ca540934b1be543faa201832b82e",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/.ipynb_checkpoints/loss-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/.ipynb_checkpoints/loss-checkpoint.py",
+      "source_sha256": "44bdfcf1b81481bffce150ee2de80c4622b4ca540934b1be543faa201832b82e",
+      "release_sha256": "44bdfcf1b81481bffce150ee2de80c4622b4ca540934b1be543faa201832b82e",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/configs/config.py": {
+      "origin": "review_experiments/source_snapshot/lib/configs/config.py",
+      "source_sha256": "ffb8509625df7953b5d97a60f4113e2d94b2ef32924ea32c43d914f45989ca6c",
+      "release_sha256": "ffb8509625df7953b5d97a60f4113e2d94b2ef32924ea32c43d914f45989ca6c",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/configs/parse_arg.py": {
+      "origin": "review_experiments/source_snapshot/lib/configs/parse_arg.py",
+      "source_sha256": "c877bbb074f865560ef1ae8c65f15c1b70461c4f37bada9dde536e09c0e1424c",
+      "release_sha256": "c877bbb074f865560ef1ae8c65f15c1b70461c4f37bada9dde536e09c0e1424c",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/configs/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/configs/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/dataset/anomaly.py": {
+      "origin": "review_experiments/source_snapshot/lib/dataset/anomaly.py",
+      "source_sha256": "dfcb467cc7846b0b0c9646827243f2820754e7e7433fa5a29b53dcd3c4ea1c64",
+      "release_sha256": "dfcb467cc7846b0b0c9646827243f2820754e7e7433fa5a29b53dcd3c4ea1c64",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/dataset/cityscapes.py": {
+      "origin": "review_experiments/source_snapshot/lib/dataset/cityscapes.py",
+      "source_sha256": "e6f927bb87a8e1f8c970c37c5c033b73e682820d5983cf12978fc7d9188bec69",
+      "release_sha256": "e6f927bb87a8e1f8c970c37c5c033b73e682820d5983cf12978fc7d9188bec69",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/dataset/fishyscapes.py": {
+      "origin": "review_experiments/source_snapshot/lib/dataset/fishyscapes.py",
+      "source_sha256": "f10a3197e43c8bfb1db93e285d5d6236ac1886d148e5694afd02719bb2b0248b",
+      "release_sha256": "f10a3197e43c8bfb1db93e285d5d6236ac1886d148e5694afd02719bb2b0248b",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/dataset/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/dataset/__init__.py",
+      "source_sha256": "43d2c5b99ce36cd1fd3d19a467baeeeab850ab01faab762528f00ed0abafb372",
+      "release_sha256": "43d2c5b99ce36cd1fd3d19a467baeeeab850ab01faab762528f00ed0abafb372",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/anomaly-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/anomaly-checkpoint.py",
+      "source_sha256": "dfcb467cc7846b0b0c9646827243f2820754e7e7433fa5a29b53dcd3c4ea1c64",
+      "release_sha256": "dfcb467cc7846b0b0c9646827243f2820754e7e7433fa5a29b53dcd3c4ea1c64",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/cityscapes-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/cityscapes-checkpoint.py",
+      "source_sha256": "e6f927bb87a8e1f8c970c37c5c033b73e682820d5983cf12978fc7d9188bec69",
+      "release_sha256": "e6f927bb87a8e1f8c970c37c5c033b73e682820d5983cf12978fc7d9188bec69",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/fishyscapes-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/fishyscapes-checkpoint.py",
+      "source_sha256": "f10a3197e43c8bfb1db93e285d5d6236ac1886d148e5694afd02719bb2b0248b",
+      "release_sha256": "f10a3197e43c8bfb1db93e285d5d6236ac1886d148e5694afd02719bb2b0248b",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/__init__-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/dataset/.ipynb_checkpoints/__init__-checkpoint.py",
+      "source_sha256": "43d2c5b99ce36cd1fd3d19a467baeeeab850ab01faab762528f00ed0abafb372",
+      "release_sha256": "43d2c5b99ce36cd1fd3d19a467baeeeab850ab01faab762528f00ed0abafb372",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/deepv3/deepv3.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/deepv3.py",
+      "source_sha256": "e7fdafb5d5fd32bab9710f341291336ce7ee090fc9224a2273cc6f4b77b8b771",
+      "release_sha256": "e7fdafb5d5fd32bab9710f341291336ce7ee090fc9224a2273cc6f4b77b8b771",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/deepv3/deepv3_backbone.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/deepv3_backbone.py",
+      "source_sha256": "0b5545578918336bf0f1f566068d0aff437481e8aa0a99f31eeb3ae524795025",
+      "release_sha256": "0b5545578918336bf0f1f566068d0aff437481e8aa0a99f31eeb3ae524795025",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/deepv3/mynn.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/mynn.py",
+      "source_sha256": "2472043c8ed2d57097899a48b509ffe9e79610e971236fb4be6e8a287892aec5",
+      "release_sha256": "2472043c8ed2d57097899a48b509ffe9e79610e971236fb4be6e8a287892aec5",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/deepv3/Resnet.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/Resnet.py",
+      "source_sha256": "04bb902ad17c6ed165276229cc9b3bd929e5588cc7ceef0d547ce820adbbad30",
+      "release_sha256": "04bb902ad17c6ed165276229cc9b3bd929e5588cc7ceef0d547ce820adbbad30",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/deepv3/SEresnext.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/SEresnext.py",
+      "source_sha256": "77b0bc72d877ce1d22f8aea7cf26cd3d3d28bf808bb7715f26c860785e85115a",
+      "release_sha256": "77b0bc72d877ce1d22f8aea7cf26cd3d3d28bf808bb7715f26c860785e85115a",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/deepv3/wider_resnet.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/wider_resnet.py",
+      "source_sha256": "49485da5c35a399d4d01ff4c7c8156a12204bbe502d4cf96b8d2594613280831",
+      "release_sha256": "49485da5c35a399d4d01ff4c7c8156a12204bbe502d4cf96b8d2594613280831",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/deepv3/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/__init__.py",
+      "source_sha256": "8ef3fa30c0c644970a8ef7e7ea1156fe4ccd3cc494a6ddedeadc3ad7e5f11cad",
+      "release_sha256": "8ef3fa30c0c644970a8ef7e7ea1156fe4ccd3cc494a6ddedeadc3ad7e5f11cad",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/deepv3-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/deepv3-checkpoint.py",
+      "source_sha256": "e7fdafb5d5fd32bab9710f341291336ce7ee090fc9224a2273cc6f4b77b8b771",
+      "release_sha256": "e7fdafb5d5fd32bab9710f341291336ce7ee090fc9224a2273cc6f4b77b8b771",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/deepv3_backbone-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/deepv3_backbone-checkpoint.py",
+      "source_sha256": "0b5545578918336bf0f1f566068d0aff437481e8aa0a99f31eeb3ae524795025",
+      "release_sha256": "0b5545578918336bf0f1f566068d0aff437481e8aa0a99f31eeb3ae524795025",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/Resnet-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/Resnet-checkpoint.py",
+      "source_sha256": "04bb902ad17c6ed165276229cc9b3bd929e5588cc7ceef0d547ce820adbbad30",
+      "release_sha256": "04bb902ad17c6ed165276229cc9b3bd929e5588cc7ceef0d547ce820adbbad30",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/wider_resnet-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/.ipynb_checkpoints/wider_resnet-checkpoint.py",
+      "source_sha256": "49485da5c35a399d4d01ff4c7c8156a12204bbe502d4cf96b8d2594613280831",
+      "release_sha256": "49485da5c35a399d4d01ff4c7c8156a12204bbe502d4cf96b8d2594613280831",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/config.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/config.py",
+      "source_sha256": "de56cbb706f764f26016d990a51a2abf9074c00b8a60d101f9c5fa79088e91ff",
+      "release_sha256": "de56cbb706f764f26016d990a51a2abf9074c00b8a60d101f9c5fa79088e91ff",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/maskformer_model.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/maskformer_model.py",
+      "source_sha256": "c26d43ae9e08695c0a89bf612682294473bc8315e039aba397dcf46f1d7423b9",
+      "release_sha256": "c26d43ae9e08695c0a89bf612682294473bc8315e039aba397dcf46f1d7423b9",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/test_time_augmentation.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/test_time_augmentation.py",
+      "source_sha256": "292cc560a56d8d202f52c578943d346910095bd4c18db25e8a14ea318f3cea9a",
+      "release_sha256": "292cc560a56d8d202f52c578943d346910095bd4c18db25e8a14ea318f3cea9a",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/__init__.py",
+      "source_sha256": "901f9ab361ad7f155e5631a6968881d3de5cb3b568c90716b97e345f0480a465",
+      "release_sha256": "901f9ab361ad7f155e5631a6968881d3de5cb3b568c90716b97e345f0480a465",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/__init__.py",
+      "source_sha256": "1ada284520fea06c42f2d5c1391213fdc7f8e7357341d692335aa90547e931e7",
+      "release_sha256": "1ada284520fea06c42f2d5c1391213fdc7f8e7357341d692335aa90547e931e7",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/register_ade20k_full.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/register_ade20k_full.py",
+      "source_sha256": "0b1483c4c21b520984c066ee324f66948286a89195a7bc1fd07ca6af2ec7fbdf",
+      "release_sha256": "0b1483c4c21b520984c066ee324f66948286a89195a7bc1fd07ca6af2ec7fbdf",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/register_ade20k_instance.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/register_ade20k_instance.py",
+      "source_sha256": "ce50005487184a70b7ecdea0d7ac7cba2fdcdc1caebf2eeb5e3d9d98bf96ecd6",
+      "release_sha256": "ce50005487184a70b7ecdea0d7ac7cba2fdcdc1caebf2eeb5e3d9d98bf96ecd6",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/register_ade20k_panoptic.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/register_ade20k_panoptic.py",
+      "source_sha256": "947ad32480e37838018cd05c6aba4a25238b5274f2a3f3ba38ecdd458a2747fa",
+      "release_sha256": "947ad32480e37838018cd05c6aba4a25238b5274f2a3f3ba38ecdd458a2747fa",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/register_coco_panoptic_annos_semseg.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/register_coco_panoptic_annos_semseg.py",
+      "source_sha256": "7908d4e1d4645c0ac149fb52db4835599d361a3c4d366150f66070fd352eb135",
+      "release_sha256": "7908d4e1d4645c0ac149fb52db4835599d361a3c4d366150f66070fd352eb135",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/register_coco_stuff_10k.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/register_coco_stuff_10k.py",
+      "source_sha256": "b5a98bee10763b0b880810370cd992f20666b561a02a1038924d627d2bd4f1c8",
+      "release_sha256": "b5a98bee10763b0b880810370cd992f20666b561a02a1038924d627d2bd4f1c8",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/register_street_hazard.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/register_street_hazard.py",
+      "source_sha256": "8fbc3091d2d104733d20af6643b10f97b0fe3923cf85e02f95c8e408e4dbaa13",
+      "release_sha256": "8fbc3091d2d104733d20af6643b10f97b0fe3923cf85e02f95c8e408e4dbaa13",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/datasets/__init__.py",
+      "source_sha256": "8c24dcfddf174471954e464144213ec6698567fce7a24712f97b8de341b7ce9c",
+      "release_sha256": "8c24dcfddf174471954e464144213ec6698567fce7a24712f97b8de341b7ce9c",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/dataset_mappers/coco_instance_new_baseline_dataset_mapper.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/dataset_mappers/coco_instance_new_baseline_dataset_mapper.py",
+      "source_sha256": "60ceca7d5c472dcee5cedcad545bb49be569d8263ee1f871b68851091a1566a3",
+      "release_sha256": "60ceca7d5c472dcee5cedcad545bb49be569d8263ee1f871b68851091a1566a3",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/dataset_mappers/coco_panoptic_new_baseline_dataset_mapper.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/dataset_mappers/coco_panoptic_new_baseline_dataset_mapper.py",
+      "source_sha256": "1bb64545e261fb5cac91eae132b1e64e5751c56bdfdc38f2ab29b2e0955ec8b6",
+      "release_sha256": "1bb64545e261fb5cac91eae132b1e64e5751c56bdfdc38f2ab29b2e0955ec8b6",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/dataset_mappers/mask_former_instance_dataset_mapper.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/dataset_mappers/mask_former_instance_dataset_mapper.py",
+      "source_sha256": "25cda8074a44fc1b3215bcb71ea5375da9daf075091250770e40556ab3aac1a2",
+      "release_sha256": "25cda8074a44fc1b3215bcb71ea5375da9daf075091250770e40556ab3aac1a2",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/dataset_mappers/mask_former_panoptic_dataset_mapper.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/dataset_mappers/mask_former_panoptic_dataset_mapper.py",
+      "source_sha256": "94e84ee0395c2d8ff62a064884645fe903a4d3ef5aa42a81aec17002a1caf20c",
+      "release_sha256": "94e84ee0395c2d8ff62a064884645fe903a4d3ef5aa42a81aec17002a1caf20c",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/dataset_mappers/mask_former_semantic_dataset_mapper.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/dataset_mappers/mask_former_semantic_dataset_mapper.py",
+      "source_sha256": "f6453ab21046fd054c7beca8845344ea1840e5f9f1f33d35d289308ed51a14e8",
+      "release_sha256": "f6453ab21046fd054c7beca8845344ea1840e5f9f1f33d35d289308ed51a14e8",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/data/dataset_mappers/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/data/dataset_mappers/__init__.py",
+      "source_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "release_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/evaluation/instance_evaluation.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/evaluation/instance_evaluation.py",
+      "source_sha256": "048fa91325e173610f81f575cfd9a0915e0a4478fe2b1c4ab8908d052164d8f8",
+      "release_sha256": "048fa91325e173610f81f575cfd9a0915e0a4478fe2b1c4ab8908d052164d8f8",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/evaluation/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/evaluation/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/criterion.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/criterion.py",
+      "source_sha256": "424bdd7a0babdb3aa2625df59df415f275f1d4a722eb514b2f4aaf26f26ca6b7",
+      "release_sha256": "424bdd7a0babdb3aa2625df59df415f275f1d4a722eb514b2f4aaf26f26ca6b7",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/matcher.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/matcher.py",
+      "source_sha256": "3e291b1a04aec536a32c277668256749d99e5bfc66b89ef0cd8cd3942046d905",
+      "release_sha256": "3e291b1a04aec536a32c277668256749d99e5bfc66b89ef0cd8cd3942046d905",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/__init__.py",
+      "source_sha256": "ccf9c00e11044b001bdc3ab46a2d28359a3134e061a8991facaf4c454272308a",
+      "release_sha256": "ccf9c00e11044b001bdc3ab46a2d28359a3134e061a8991facaf4c454272308a",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/backbone/swin.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/backbone/swin.py",
+      "source_sha256": "635c15c182571864acb9e60a5d1ce711d7f65089db036fcb90bad914b805bf61",
+      "release_sha256": "635c15c182571864acb9e60a5d1ce711d7f65089db036fcb90bad914b805bf61",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/backbone/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/backbone/__init__.py",
+      "source_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "release_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/meta_arch/mask_former_head.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/meta_arch/mask_former_head.py",
+      "source_sha256": "4b8b05cb52a6317647cff1e862b81e26f37c8d21a3cff12c7a67ded972f2d10f",
+      "release_sha256": "4b8b05cb52a6317647cff1e862b81e26f37c8d21a3cff12c7a67ded972f2d10f",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/meta_arch/per_pixel_baseline.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/meta_arch/per_pixel_baseline.py",
+      "source_sha256": "bf5724448d01d02c3585fbb70dad40731491b760b849b1206332a610690a43d6",
+      "release_sha256": "bf5724448d01d02c3585fbb70dad40731491b760b849b1206332a610690a43d6",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/meta_arch/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/meta_arch/__init__.py",
+      "source_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "release_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/fpn.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/fpn.py",
+      "source_sha256": "49baf37b1db167d8a84af226f98b233cf8d9181c026f527e861b6bb88b505e27",
+      "release_sha256": "49baf37b1db167d8a84af226f98b233cf8d9181c026f527e861b6bb88b505e27",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/msdeformattn.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/msdeformattn.py",
+      "source_sha256": "55bd949f108f7b68dbe0a52e96fa5ec6e124e62d2b167caf51ccea493f078f19",
+      "release_sha256": "55bd949f108f7b68dbe0a52e96fa5ec6e124e62d2b167caf51ccea493f078f19",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/__init__.py",
+      "source_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "release_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/ops/setup.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/ops/setup.py",
+      "source_sha256": "43337887620f7ddc5fd892abaa837c1a4fbdb0fb767c9cfda78a013f80997780",
+      "release_sha256": "43337887620f7ddc5fd892abaa837c1a4fbdb0fb767c9cfda78a013f80997780",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/ops/test.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/ops/test.py",
+      "source_sha256": "0eae613a37b1a67f52c2a5a56036fa7787bf398e630a1d386b54a4daee591bde",
+      "release_sha256": "0eae613a37b1a67f52c2a5a56036fa7787bf398e630a1d386b54a4daee591bde",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/ops/functions/ms_deform_attn_func.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/ops/functions/ms_deform_attn_func.py",
+      "source_sha256": "cf206cc3c80e07ae71957ee5d3001a5179edf3139efa1e649362593cb1673730",
+      "release_sha256": "cf206cc3c80e07ae71957ee5d3001a5179edf3139efa1e649362593cb1673730",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/ops/functions/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/ops/functions/__init__.py",
+      "source_sha256": "7415ff520ad22f839a4bb3c5c869b4022b776f2d7ab08df8daf94a3bc64079fd",
+      "release_sha256": "7415ff520ad22f839a4bb3c5c869b4022b776f2d7ab08df8daf94a3bc64079fd",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/ops/modules/ms_deform_attn.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/ops/modules/ms_deform_attn.py",
+      "source_sha256": "e958c034cd2c2695a7141554760ba21ba472ad9a5e0f30f945634a81b91120f5",
+      "release_sha256": "e958c034cd2c2695a7141554760ba21ba472ad9a5e0f30f945634a81b91120f5",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/ops/modules/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/pixel_decoder/ops/modules/__init__.py",
+      "source_sha256": "b72cb718272847a052ec5e8caae1095718438fe2e09b94e9b3acff7b3da7d3f0",
+      "release_sha256": "b72cb718272847a052ec5e8caae1095718438fe2e09b94e9b3acff7b3da7d3f0",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/transformer_decoder/mask2former_transformer_decoder.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/transformer_decoder/mask2former_transformer_decoder.py",
+      "source_sha256": "7d738bcb3928fc6a2b36119d94aa764b2871714a6af8e720596d7b9362876066",
+      "release_sha256": "7d738bcb3928fc6a2b36119d94aa764b2871714a6af8e720596d7b9362876066",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/transformer_decoder/maskformer_transformer_decoder.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/transformer_decoder/maskformer_transformer_decoder.py",
+      "source_sha256": "ade13045563dda97f632dcceb1c55955ebe73bfdaf4af2d835a9c4c500194f09",
+      "release_sha256": "ade13045563dda97f632dcceb1c55955ebe73bfdaf4af2d835a9c4c500194f09",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/transformer_decoder/position_encoding.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/transformer_decoder/position_encoding.py",
+      "source_sha256": "19f29fee1a694a4f6c435d3c6b72ca3520b8a363ccc34dc74021ed38b53bc07f",
+      "release_sha256": "19f29fee1a694a4f6c435d3c6b72ca3520b8a363ccc34dc74021ed38b53bc07f",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/transformer_decoder/transformer.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/transformer_decoder/transformer.py",
+      "source_sha256": "83d5aee20507bcb809c521cbb8359bf12f8589939cbca6360134f1120147b74c",
+      "release_sha256": "83d5aee20507bcb809c521cbb8359bf12f8589939cbca6360134f1120147b74c",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/modeling/transformer_decoder/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/modeling/transformer_decoder/__init__.py",
+      "source_sha256": "71d9e04317bb322ee71fdeaf038efa86655de9b8b1f574446e66d34bb3a69fdb",
+      "release_sha256": "71d9e04317bb322ee71fdeaf038efa86655de9b8b1f574446e66d34bb3a69fdb",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/utils/misc.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/utils/misc.py",
+      "source_sha256": "53fc8de4b8f5947fbba0f5a802219c0df1ca0b91133400b7da755cf6a328e672",
+      "release_sha256": "53fc8de4b8f5947fbba0f5a802219c0df1ca0b91133400b7da755cf6a328e672",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/network/mask2former/utils/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/network/mask2former/utils/__init__.py",
+      "source_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "release_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/utils/freq_aug.py": {
+      "origin": "review_experiments/source_snapshot/lib/utils/freq_aug.py",
+      "source_sha256": "87c498697fb6db45ae083cb09d2dab6052d5c31f0d89ca92908a122e0014062f",
+      "release_sha256": "87c498697fb6db45ae083cb09d2dab6052d5c31f0d89ca92908a122e0014062f",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/utils/freq_aug0.py": {
+      "origin": "review_experiments/source_snapshot/lib/utils/freq_aug0.py",
+      "source_sha256": "53a9c9c0589fe2a97b2565b6027242c1e4573f69368372c189494579c9e12ceb",
+      "release_sha256": "53a9c9c0589fe2a97b2565b6027242c1e4573f69368372c189494579c9e12ceb",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/utils/img_utils.py": {
+      "origin": "review_experiments/source_snapshot/lib/utils/img_utils.py",
+      "source_sha256": "176954bfcec3b374d2815bc438f2fbd06a0f010879c4fb5ff40fb09794d4d0e8",
+      "release_sha256": "176954bfcec3b374d2815bc438f2fbd06a0f010879c4fb5ff40fb09794d4d0e8",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/utils/metric.py": {
+      "origin": "review_experiments/source_snapshot/lib/utils/metric.py",
+      "source_sha256": "ea4feaee562e208f1bbdf01c4c47b4140a17e9e98e9812c2cfaca86b454956b3",
+      "release_sha256": "ea4feaee562e208f1bbdf01c4c47b4140a17e9e98e9812c2cfaca86b454956b3",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/utils/utils.py": {
+      "origin": "review_experiments/source_snapshot/lib/utils/utils.py",
+      "source_sha256": "314819190857e0f850d767f3b47b4f942962f8c137a34c468e2740d7000c4d7d",
+      "release_sha256": "314819190857e0f850d767f3b47b4f942962f8c137a34c468e2740d7000c4d7d",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/utils/__init__.py": {
+      "origin": "review_experiments/source_snapshot/lib/utils/__init__.py",
+      "source_sha256": "8eecb560f18f6fb6cb75d9818837fab2b9f3ceb64e566317e09d906cb1be1464",
+      "release_sha256": "8eecb560f18f6fb6cb75d9818837fab2b9f3ceb64e566317e09d906cb1be1464",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/freq_aug-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/freq_aug-checkpoint.py",
+      "source_sha256": "87c498697fb6db45ae083cb09d2dab6052d5c31f0d89ca92908a122e0014062f",
+      "release_sha256": "87c498697fb6db45ae083cb09d2dab6052d5c31f0d89ca92908a122e0014062f",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/freq_aug0-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/freq_aug0-checkpoint.py",
+      "source_sha256": "53a9c9c0589fe2a97b2565b6027242c1e4573f69368372c189494579c9e12ceb",
+      "release_sha256": "53a9c9c0589fe2a97b2565b6027242c1e4573f69368372c189494579c9e12ceb",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/img_utils-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/img_utils-checkpoint.py",
+      "source_sha256": "176954bfcec3b374d2815bc438f2fbd06a0f010879c4fb5ff40fb09794d4d0e8",
+      "release_sha256": "176954bfcec3b374d2815bc438f2fbd06a0f010879c4fb5ff40fb09794d4d0e8",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/metric-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/metric-checkpoint.py",
+      "source_sha256": "ea4feaee562e208f1bbdf01c4c47b4140a17e9e98e9812c2cfaca86b454956b3",
+      "release_sha256": "ea4feaee562e208f1bbdf01c4c47b4140a17e9e98e9812c2cfaca86b454956b3",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/utils-checkpoint.py": {
+      "origin": "review_experiments/source_snapshot/lib/utils/.ipynb_checkpoints/utils-checkpoint.py",
+      "source_sha256": "314819190857e0f850d767f3b47b4f942962f8c137a34c468e2740d7000c4d7d",
+      "release_sha256": "314819190857e0f850d767f3b47b4f942962f8c137a34c468e2740d7000c4d7d",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/exps/DeepLab.yaml": {
+      "origin": "review_experiments/source_snapshot/exps/DeepLab.yaml",
+      "source_sha256": "008972aceb714f0b8228d016cac6f73413794eeea5b225976113cec232d64a7e",
+      "release_sha256": "008972aceb714f0b8228d016cac6f73413794eeea5b225976113cec232d64a7e",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/exps/DeepLabold.yaml": {
+      "origin": "review_experiments/source_snapshot/exps/DeepLabold.yaml",
+      "source_sha256": "f22f217c7d321ffcf0ec110bbb51df0b460f0ee4658311e96d8359acf23189f9",
+      "release_sha256": "f22f217c7d321ffcf0ec110bbb51df0b460f0ee4658311e96d8359acf23189f9",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/exps/Deeplab_backbone.yaml": {
+      "origin": "review_experiments/source_snapshot/exps/Deeplab_backbone.yaml",
+      "source_sha256": "3ca6f79b5819f8acefcfb90c16e5ff12ef83ff12f27be97eeb2e7e6a577009c8",
+      "release_sha256": "3ca6f79b5819f8acefcfb90c16e5ff12ef83ff12f27be97eeb2e7e6a577009c8",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/exps/DeepLab_continue_RoadAnomaly.yaml": {
+      "origin": "review_experiments/source_snapshot/exps/DeepLab_continue_RoadAnomaly.yaml",
+      "source_sha256": "ad13a0fc5068c1cdb7044a07474c3f4de40483e3cd20d4ea9afab426af74a41a",
+      "release_sha256": "ad13a0fc5068c1cdb7044a07474c3f4de40483e3cd20d4ea9afab426af74a41a",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/exps/DeepLab_continue_RoadAnomaly_short.yaml": {
+      "origin": "review_experiments/source_snapshot/exps/DeepLab_continue_RoadAnomaly_short.yaml",
+      "source_sha256": "06080dbb329caf169db946f709f441a2ad5d141cb12c529716ea94f6f0f22d63",
+      "release_sha256": "06080dbb329caf169db946f709f441a2ad5d141cb12c529716ea94f6f0f22d63",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/exps/DeepLab_continue_RoadObstacle21_short.yaml": {
+      "origin": "review_experiments/source_snapshot/exps/DeepLab_continue_RoadObstacle21_short.yaml",
+      "source_sha256": "491c80b5412d7d390095de77421ceeb1834e6ee3d1dcf2f7fbc5ba5f3b6de545",
+      "release_sha256": "491c80b5412d7d390095de77421ceeb1834e6ee3d1dcf2f7fbc5ba5f3b6de545",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/exps/DeepLab_ra21_ro21_slowdecay.yaml": {
+      "origin": "review_experiments/source_snapshot/exps/DeepLab_ra21_ro21_slowdecay.yaml",
+      "source_sha256": "2a162df7f1fcc58f731cfa8e7358a8b853988d587780bdd099644243840aeed5",
+      "release_sha256": "2a162df7f1fcc58f731cfa8e7358a8b853988d587780bdd099644243840aeed5",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/exps/M2F.yaml": {
+      "origin": "review_experiments/source_snapshot/exps/M2F.yaml",
+      "source_sha256": "771fc02b8049330715f2098fc0ef7088bb65015c3330d33df2470c70f869e1bf",
+      "release_sha256": "771fc02b8049330715f2098fc0ef7088bb65015c3330d33df2470c70f869e1bf",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/test_fishyscapes.py": {
+      "origin": "review_experiments/source_snapshot/test_fishyscapes.py",
+      "source_sha256": "5ed4f084bbe070bdd22623950dcb269157ac542adb7c90dc0f7c031b974638d4",
+      "release_sha256": "5ed4f084bbe070bdd22623950dcb269157ac542adb7c90dc0f7c031b974638d4",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/train_deeplab.py": {
+      "origin": "review_experiments/source_snapshot/train_deeplab.py",
+      "source_sha256": "fa9d580c6e054a18efc38c9c47d1c2a560e85ae4e330483c88c722a0acfb09e7",
+      "release_sha256": "fa9d580c6e054a18efc38c9c47d1c2a560e85ae4e330483c88c722a0acfb09e7",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/train_deeplab_backbone.py": {
+      "origin": "review_experiments/source_snapshot/train_deeplab_backbone.py",
+      "source_sha256": "54055ed90db4bff3c304ac3385815b94c9e54a78a9ef0d820e685607f8f3a1ca",
+      "release_sha256": "54055ed90db4bff3c304ac3385815b94c9e54a78a9ef0d820e685607f8f3a1ca",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/train_deeplab_ddp(1).py": {
+      "origin": "review_experiments/source_snapshot/train_deeplab_ddp(1).py",
+      "source_sha256": "9f7916d7bc5f17ca00969b59469eda5f49ea16e6036fdc7d2fd76466cada23ca",
+      "release_sha256": "9f7916d7bc5f17ca00969b59469eda5f49ea16e6036fdc7d2fd76466cada23ca",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/train_deeplab_ddp.py": {
+      "origin": "review_experiments/source_snapshot/train_deeplab_ddp.py",
+      "source_sha256": "df22b3b8cb3edd4b19952e113d9cd63121cb69bc0713d6436afecbed774c6bfe",
+      "release_sha256": "df22b3b8cb3edd4b19952e113d9cd63121cb69bc0713d6436afecbed774c6bfe",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/train_deeplab_ddpold.py": {
+      "origin": "review_experiments/source_snapshot/train_deeplab_ddpold.py",
+      "source_sha256": "1efca0c09ee3862d3efc7eed130ea1c0532e766869d7ff1aad0a459062729dee",
+      "release_sha256": "1efca0c09ee3862d3efc7eed130ea1c0532e766869d7ff1aad0a459062729dee",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/train_deeplab_ddp_continue_good.py": {
+      "origin": "review_experiments/source_snapshot/train_deeplab_ddp_continue_good.py",
+      "source_sha256": "19250cdfc9b264e1d97a195d4ad9251c5bae0c5a7a89f2eba6bda25af438799f",
+      "release_sha256": "19250cdfc9b264e1d97a195d4ad9251c5bae0c5a7a89f2eba6bda25af438799f",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/train_deeplab_ddp_continue_RoadAnomaly.py": {
+      "origin": "review_experiments/source_snapshot/train_deeplab_ddp_continue_RoadAnomaly.py",
+      "source_sha256": "f81ad3bb84c74a5598a3ce5fcc1056330ed78404ec8cfe0b205d6385ef623ae3",
+      "release_sha256": "f81ad3bb84c74a5598a3ce5fcc1056330ed78404ec8cfe0b205d6385ef623ae3",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/train_deeplab_ddp_continue_RoadObstacle21.py": {
+      "origin": "review_experiments/source_snapshot/train_deeplab_ddp_continue_RoadObstacle21.py",
+      "source_sha256": "85969eac51a077c00bbc3b7015aee8dcf1864caa88044296c207af6864060df7",
+      "release_sha256": "85969eac51a077c00bbc3b7015aee8dcf1864caa88044296c207af6864060df7",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/train_deeplab_ddp_ra21_ro21_slowdecay.py": {
+      "origin": "review_experiments/source_snapshot/train_deeplab_ddp_ra21_ro21_slowdecay.py",
+      "source_sha256": "b15dd15d56bdd0243f514d8884188951404f55d3a5cd64c4e3047520c795cf50",
+      "release_sha256": "b15dd15d56bdd0243f514d8884188951404f55d3a5cd64c4e3047520c795cf50",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/visualize_anomaly_results_clean.py": {
+      "origin": "review_experiments/source_snapshot/visualize_anomaly_results_clean.py",
+      "source_sha256": "cac5f2071eb9957d69fa70165baefaa90c4b18b9d6d2ee40b173858745dd42d7",
+      "release_sha256": "cac5f2071eb9957d69fa70165baefaa90c4b18b9d6d2ee40b173858745dd42d7",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/visualize_aug.py": {
+      "origin": "review_experiments/source_snapshot/visualize_aug.py",
+      "source_sha256": "7c45ebde7267e247688e386aedbbe0d7355eba014b38bbca0e963a064fdcde52",
+      "release_sha256": "7c45ebde7267e247688e386aedbbe0d7355eba014b38bbca0e963a064fdcde52",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/README.md": {
+      "origin": "review_experiments/source_snapshot/README.md",
+      "source_sha256": "41b9ceb90e1e081ce46b29e7be9308700cce07415131bf8857c1393eaecc3029",
+      "release_sha256": "41b9ceb90e1e081ce46b29e7be9308700cce07415131bf8857c1393eaecc3029",
+      "changes": []
+    },
+    "review_experiments/source_snapshot/environment.yml": {
+      "origin": "review_experiments/source_snapshot/environment.yml",
+      "source_sha256": "0868f29a48474b4fff4b83495bbab3d1c8a387a9d1f73ed122c49a123da2f6c4",
+      "release_sha256": "6b3b2274c9d8b012e21296a90ca5b57c27281bb4f9d0eb3c304f8b7ad41c961f",
+      "changes": [
+        "Removed machine-specific conda prefix; preserved package specification."
+      ]
+    },
+    "review_experiments/source_snapshot/manifest.json": {
+      "origin": "review_experiments/source_snapshot/manifest.json",
+      "source_sha256": "032d2e5220eb7078c45531466bcdcfea548d88e98a7c7a88c4029e22d1bc90bc",
+      "release_sha256": "6c3d5be4f7fa9ce1a15d9aff536dc4a2a102afc748f16e5f011d626fc3c3048a",
+      "changes": [
+        "Recomputed file hashes for public snapshot and normalized manifest key separators to POSIX."
+      ]
+    },
+    "review_experiments/runtime.py": {
+      "origin": "review_experiments/response_B_final_20261003/evidence/cloud_archive/runtime.py",
+      "source_sha256": "325800bd74a4938c812e0b6076cd27f26f8cb542be3ab95cd4dc4d0c6bc762df",
+      "release_sha256": "00161da9bd1c37e075bcc95916f4cac5a4f007cf6d1cef5cfe5696031f82ec2e",
+      "changes": [
+        "Replaced private data/checkpoint paths with U_GFAA_DATA_ROOT and U_GFAA_WEIGHTS environment variables; defaults are repo/data and repo/pretrained_weights/cityscapes_best.pth. No training or evaluation algorithm changed."
+      ]
+    },
+    "review_experiments/train_multiseed49.py": {
+      "origin": "review_experiments/response_B_final_20261003/evidence/cloud_archive/train_multiseed49.py",
+      "source_sha256": "28967d43b49da2a14014829490eae3ea46085a69d69b7f8097bb5b27dfd9a6e8",
+      "release_sha256": "28967d43b49da2a14014829490eae3ea46085a69d69b7f8097bb5b27dfd9a6e8",
+      "changes": []
+    },
+    "review_experiments/train_multiseed49_baseline.py": {
+      "origin": "review_experiments/response_B_final_20261003/evidence/cloud_archive/train_multiseed49_baseline.py",
+      "source_sha256": "8d2653bbc327d4d2fea0db9a918f6ee8ab93798b4e23cd1bd347cc1cf97f446f",
+      "release_sha256": "8d2653bbc327d4d2fea0db9a918f6ee8ab93798b4e23cd1bd347cc1cf97f446f",
+      "changes": []
+    },
+    "review_experiments/ablation_variants.py": {
+      "origin": "review_experiments/response_B_final_20261003/evidence/cloud_archive/ablation_variants.py",
+      "source_sha256": "ab4c021da301dd154e83bb5c2ac9dc22cb9934ad57f515527f88c67021a11ce0",
+      "release_sha256": "ab4c021da301dd154e83bb5c2ac9dc22cb9934ad57f515527f88c67021a11ce0",
+      "changes": []
+    },
+    "review_experiments/baseline_label_adapter.py": {
+      "origin": "review_experiments/response_B_final_20261003/evidence/cloud_archive/baseline_label_adapter.py",
+      "source_sha256": "fbfd1f0c3d87fb775e1c5b67c743b9e295697600f162ff3a7f9c6efa81d7f0ec",
+      "release_sha256": "fbfd1f0c3d87fb775e1c5b67c743b9e295697600f162ff3a7f9c6efa81d7f0ec",
+      "changes": []
+    },
+    "review_experiments/training_budget.py": {
+      "origin": "review_experiments/response_B_final_20261003/evidence/cloud_archive/training_budget.py",
+      "source_sha256": "7280b0f0a0f8ad243e35661eb28d1f711be85a85e6378df195e70d98825c493a",
+      "release_sha256": "7280b0f0a0f8ad243e35661eb28d1f711be85a85e6378df195e70d98825c493a",
+      "changes": []
+    },
+    "review_experiments/train_variants.py": {
+      "origin": "review_experiments/train_variants.py",
+      "source_sha256": "1b22af13553b3fa3b4e78e6d007979b87934a9240d70b22e171b37c212c26242",
+      "release_sha256": "1b22af13553b3fa3b4e78e6d007979b87934a9240d70b22e171b37c212c26242",
+      "changes": []
+    },
+    "review_experiments/evaluate_run.py": {
+      "origin": "review_experiments/evaluate_run.py",
+      "source_sha256": "92a2e099e059fead5ae1c9e824b04636d7ea0d7469e10a7bd1322b80bc3a07a7",
+      "release_sha256": "92a2e099e059fead5ae1c9e824b04636d7ea0d7469e10a7bd1322b80bc3a07a7",
+      "changes": []
+    },
+    "review_experiments/fixed_seed_training_data.py": {
+      "origin": "review_experiments/fixed_seed_training_data.py",
+      "source_sha256": "b27ddff0fa3089c5cb358c19b78670fbd2d86dbd9180e33f08a28665c07c6d42",
+      "release_sha256": "b27ddff0fa3089c5cb358c19b78670fbd2d86dbd9180e33f08a28665c07c6d42",
+      "changes": []
+    },
+    "review_experiments/autodl_portability.py": {
+      "origin": "review_experiments/autodl_portability.py",
+      "source_sha256": "4b4e8a7b6cc172eab703a894309e506392766998c9b1501eec948d501eaf02b7",
+      "release_sha256": "4b4e8a7b6cc172eab703a894309e506392766998c9b1501eec948d501eaf02b7",
+      "changes": []
+    },
+    "review_experiments/dataset_enumeration.json": {
+      "origin": "review_experiments/autodl_transfer/dataset_enumeration.json",
+      "source_sha256": "9798adf902529de5aff27f929cd2fc69320345937d23fabeaaa38bc29a5e3d0d",
+      "release_sha256": "9798adf902529de5aff27f929cd2fc69320345937d23fabeaaa38bc29a5e3d0d",
+      "changes": []
+    },
+    "review_experiments/training_data_manifest.json": {
+      "origin": "review_experiments/training_data_manifest.json",
+      "source_sha256": "a69df525ef39f624e628629e18854866bebef8c02be669202cb2c26000089156",
+      "release_sha256": "4e870e836600ed8f2d430ea3a1b6fe0392b92821f60d91fba285103c35183740",
+      "changes": [
+        "Replaced original machine-specific data_root with relative data directory; item records unchanged."
+      ]
+    },
+    "review_experiments/multiseed49_fixed_selection.json": {
+      "origin": "review_experiments/response_B_final_20261003/evidence/cloud_archive/multiseed49_fixed_selection.json",
+      "source_sha256": "e3f0e6aa404fe81c10abf8e9e45b43f725796ef51d531a0377291a37fa873954",
+      "release_sha256": "e3f0e6aa404fe81c10abf8e9e45b43f725796ef51d531a0377291a37fa873954",
+      "changes": []
+    },
+    "review_experiments/multiseed49_baseline_label_audit.json": {
+      "origin": "review_experiments/multiseed49_baseline_label_audit.json",
+      "source_sha256": "c4f23fa0a30dee3f13f7aa0978117ef75a2323c5c484e350497d61b43ce33243",
+      "release_sha256": "c4f23fa0a30dee3f13f7aa0978117ef75a2323c5c484e350497d61b43ce33243",
+      "changes": []
+    },
+    "review_experiments/upstream_snapshot/lib/loss.py": {
+      "origin": "review_experiments/upstream_snapshot/lib/loss.py",
+      "source_sha256": "df7dec439c4b36ff3bf2dacc8e6726ce4c3e4fb689256c156666eb6c38850186",
+      "release_sha256": "df7dec439c4b36ff3bf2dacc8e6726ce4c3e4fb689256c156666eb6c38850186",
+      "changes": []
+    },
+    "review_experiments/upstream_snapshot/lib/network/deepv3/deepv3.py": {
+      "origin": "review_experiments/upstream_snapshot/lib/network/deepv3/deepv3.py",
+      "source_sha256": "a558cacba0239d7192d45ee7f720a87f9a3eb03a3911574a9036144695a3a231",
+      "release_sha256": "a558cacba0239d7192d45ee7f720a87f9a3eb03a3911574a9036144695a3a231",
+      "changes": []
+    },
+    "review_experiments/upstream_snapshot/exps/DeepLab.yaml": {
+      "origin": "review_experiments/upstream_snapshot/exps/DeepLab.yaml",
+      "source_sha256": "0a086bf9ad307a69df40df1876ba2387d1be6c061837f5f0ce83b26e1f9ea080",
+      "release_sha256": "0a086bf9ad307a69df40df1876ba2387d1be6c061837f5f0ce83b26e1f9ea080",
+      "changes": []
+    },
+    "review_experiments/upstream_snapshot/train_deeplab.py": {
+      "origin": "review_experiments/upstream_snapshot/train_deeplab.py",
+      "source_sha256": "4c96f37be3b74db3f02f29f8247de6d7b2e6cefd788f6f871ad543f50a2ff560",
+      "release_sha256": "4c96f37be3b74db3f02f29f8247de6d7b2e6cefd788f6f871ad543f50a2ff560",
+      "changes": []
+    },
+    "LICENSE": {
+      "origin": "shared-nvme/MultiShiftSeg/LICENSE",
+      "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "release_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "changes": []
+    },
+    "licenses/MultiShiftSeg-Apache-2.0.txt": {
+      "origin": "shared-nvme/MultiShiftSeg/LICENSE",
+      "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "release_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "changes": []
+    },
+    "licenses/DeepLab-MIT.txt": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/deepv3.py",
+      "source_sha256": "e7fdafb5d5fd32bab9710f341291336ce7ee090fc9224a2273cc6f4b77b8b771",
+      "release_sha256": "3eb9993cf41ce1288adc0e2679e2977f78761b75b428b0e14a7c1f84d04ab9c1",
+      "changes": [
+        "Extracted existing source-file license header; original header remains in source."
+      ]
+    },
+    "licenses/Torchvision-Resnet-BSD-3-Clause.txt": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/Resnet.py",
+      "source_sha256": "04bb902ad17c6ed165276229cc9b3bd929e5588cc7ceef0d547ce820adbbad30",
+      "release_sha256": "8d513e994247ef96a17db6bec2d5661891d5db1e2e58a846aacd444ba7bf0c17",
+      "changes": [
+        "Extracted existing source-file license header; original header remains in source."
+      ]
+    },
+    "licenses/Cadene-SEresnext-BSD-3-Clause.txt": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/SEresnext.py",
+      "source_sha256": "77b0bc72d877ce1d22f8aea7cf26cd3d3d28bf808bb7715f26c860785e85115a",
+      "release_sha256": "2f054f35f9718ee9959f0c10579d1abbea18617a3fa7299d4301b8a542c928f4",
+      "changes": [
+        "Extracted existing source-file license header; original header remains in source."
+      ]
+    },
+    "licenses/Mapillary-WiderResnet-BSD-3-Clause.txt": {
+      "origin": "review_experiments/source_snapshot/lib/network/deepv3/wider_resnet.py",
+      "source_sha256": "49485da5c35a399d4d01ff4c7c8156a12204bbe502d4cf96b8d2594613280831",
+      "release_sha256": "f92f5c81a34b3ec4014dc70a6e0cddf6bb90d6546b632cdcc36a03f4fddf2f98",
+      "changes": [
+        "Extracted existing source-file license header; original header remains in source."
+      ]
+    },
+    "licenses/Mask2Former-MIT.txt": {
+      "origin": "https://raw.githubusercontent.com/facebookresearch/Mask2Former/main/LICENSE",
+      "source_sha256": null,
+      "release_sha256": "99566a874d9decd98dc3cea026c314ad255d8798d7d51e121fe1413f4d2750bb",
+      "changes": [
+        "Downloaded official license text on 2026-10-08; individual source headers retained."
+      ]
+    },
+    "licenses/CityscapesScripts-MIT.txt": {
+      "origin": "https://raw.githubusercontent.com/mcordts/cityscapesScripts/master/LICENSE",
+      "source_sha256": null,
+      "release_sha256": "fb7b564798b64ba55651860ef791e439ab49189ce405bcaf458761ea286bdc00",
+      "changes": [
+        "Downloaded official license text on 2026-10-08; individual source headers retained."
+      ]
+    },
+    "licenses/SwinTransformer-MIT.txt": {
+      "origin": "https://raw.githubusercontent.com/microsoft/Swin-Transformer/main/LICENSE",
+      "source_sha256": null,
+      "release_sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "changes": [
+        "Downloaded official license text on 2026-10-08; individual source headers retained."
+      ]
+    },
+    "licenses/Deformable-DETR-Apache-2.0.txt": {
+      "origin": "https://raw.githubusercontent.com/fundamentalvision/Deformable-DETR/main/LICENSE",
+      "source_sha256": null,
+      "release_sha256": "068413f8cf5e42e34d6e171e45a779df6dbea0a18249c0a223a3878e6de3cb27",
+      "changes": [
+        "Downloaded official license text on 2026-10-08; individual source headers retained."
+      ]
+    },
+    "licenses/DETR-Apache-2.0.txt": {
+      "origin": "https://raw.githubusercontent.com/facebookresearch/detr/main/LICENSE",
+      "source_sha256": null,
+      "release_sha256": "b208c52b00a2df2c8f4c3298c34407bf2bfe409968213372251c91fcc737a1a5",
+      "changes": [
+        "Downloaded official license text on 2026-10-08; individual source headers retained."
+      ]
+    },
+    "licenses/SwinSemanticSegmentation-Apache-2.0.txt": {
+      "origin": "https://raw.githubusercontent.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation/main/LICENSE",
+      "source_sha256": null,
+      "release_sha256": "8864ac306681b6cee8a1d2bb5a7b9b64409d46cb543618e3c6cc866e3a33182b",
+      "changes": [
+        "Downloaded official license text on 2026-10-08; individual source headers retained."
+      ]
+    },
+    "licenses/THIRD_PARTY_NOTICES.md": {
+      "origin": "generated for public release",
+      "source_sha256": null,
+      "release_sha256": "2757add1a0cb70cbefa15243f7e4b1bd8f67bd86666b06ed95ea8fe99b106d5c",
+      "changes": []
+    },
+    "review_experiments/RELEASE_LAYOUT.md": {
+      "origin": "generated for public release",
+      "source_sha256": null,
+      "release_sha256": "6891b1b61c856daf8b3290be9f2819bd628cc63ce577aea93da9e274376f9d74",
+      "changes": []
+    }
+  }
+}
